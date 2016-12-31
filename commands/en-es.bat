@@ -1,0 +1,1 @@
+start "" "https://translate.google.com/#en/es/%*"

@@ -1,0 +1,17 @@
+{
+  "path": "./commands",
+  "commandList": {
+    "en-es": {
+    "filename": "en-es.bat",
+    "content": "start \"\" \"https://translate.google.com/#en/es/%*\""
+    },
+    "en-fr": {
+      "filename": "en-fr.bat",
+      "content": "start \"\" \"https://translate.google.com/#en/fr/%*\""
+    },
+    "github": {
+      "filename": "github.bat",
+      "content": "start \"\" \"https://github.com\""
+    }
+  }
+}
