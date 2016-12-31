@@ -1,0 +1,1 @@
+start "" "http://www.woorden.org/woord/%*"

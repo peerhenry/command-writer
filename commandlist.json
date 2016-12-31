@@ -1,17 +1,125 @@
 {
   "path": "./commands",
+
   "commandList": {
+
+    
+
     "en-es": {
-    "filename": "en-es.bat",
-    "content": "start \"\" \"https://translate.google.com/#en/es/%*\""
+      "filename": "en-es.bat",
+      "content": "start \"\" \"https://translate.google.com/#en/es/%*\""
     },
+    "es-en": {
+      "filename": "es-en.bat",
+      "content": "start \"\" \"https://translate.google.com/#es/en/%*\""
+    },
+
     "en-fr": {
       "filename": "en-fr.bat",
       "content": "start \"\" \"https://translate.google.com/#en/fr/%*\""
     },
+    "fr-en": {
+      "filename": "fr-en.bat",
+      "content": "start \"\" \"https://translate.google.com/#fr/en/%*\""
+    },
+    
+    "en-nl" : {
+      "filename": "en-nl.bat",
+      "content": "start \"\" \"https://translate.google.com/#/en/nl/%*\""
+    },
+    "nl-en" : {
+      "filename": "nl-en.bat",
+      "content": "start \"\" \"https://translate.google.com/#/nl/en/%*\""
+    },
+    
+    "en-de" : {
+      "filename": "en-de.bat",
+      "content": "start \"\" \"https://translate.google.com/#/en/de/%*\""
+    },
+    "de-en" : {
+      "filename": "de-en.bat",
+      "content": "start \"\" \"https://translate.google.com/#/de/en/%*\""
+    },
+
+    
+
     "github": {
       "filename": "github.bat",
       "content": "start \"\" \"https://github.com\""
+    },
+
+    "google" : {
+      "filename": "google.bat",
+      "content": "start \"\" \"https://www.google.com/search?q=%*\""
+    },
+
+    "gmail" : {
+      "filename": "gmail.bat",
+      "content": "start \"\" \"https://mail.google.com/mail/u/0/#inbox\""
+    },
+
+    "trello" : {
+      "filename": "trello.bat",
+      "content": "start \"\" \"https://trello.com/\""
+    },
+
+    "tweakers" : {
+      "filename": "tweakers.bat",
+      "content": [
+        "@echo off",
+        "if \"%1\"==\"\" (",
+        "\tstart \"\" \"https://tweakers.net\"",
+        ") else (",
+        "\tstart \"\" \"https://tweakers.net/zoeken/?keyword=%*\"",
+        ")"
+      ]
+    },
+
+    "woorden" : {
+      "filename": "woorden.bat",
+      "content": "start \"\" \"http://www.woorden.org/woord/%*\""
+    },
+
+    "dictionary" : {
+      "filename": "dic.bat",
+      "content": "start \"\" \"http://www.dictionary.com/browse/%*?s=t\""
+    },
+
+    "imdb" : {
+      "filename": "imdb.bat",
+      "content": [
+        "@echo off",
+        "if \"%1\"==\"\" (",
+        "\tstart \"\" \"https://www.imdb.com\"",
+        ") else (",
+        "\tstart \"\" \"http://www.imdb.com/find?ref_=nv_sr_fn&q=%*&s=all\"",
+        ")"
+      ]
+    },
+
+    "wikipedia" : {
+      "filename": "wiki.bat",
+      "content": "start \"\" \"https://en.wikipedia.org/wiki/%*\""
+    },
+
+    "youtube" : {
+      "filename": "youtube.bat",
+      "content": "start \"\" \"https://www.youtube.com/results?search_query=%*\""
+    },
+
+    "trends" : {
+      "filename": "trends.bat",
+      "content": "start \"\" \"https://www.google.com/trends/explore?q=%*\""
+    },
+
+    "bios" : {
+      "filename": "bios.bat",
+      "content": "start \"\" \"https://www.biosagenda.nl\""
+    },
+
+    "" : {
+      "filename": "",
+      "content": ""
     }
   }
 }
