@@ -117,6 +117,18 @@
       "content": "start \"\" \"https://www.biosagenda.nl\""
     },
 
+    "stackoverflow" : {
+      "filename": "stacko.bat",
+      "content": [
+        "@echo off",
+        "if \"%1\"==\"\" (",
+        "\tstart \"\" \"http://stackoverflow.com\"",
+        ") else (",
+        "\tstart \"\" \"http://stackoverflow.com/search?q=%*\"",
+        ")"
+      ]
+    },
+
     "" : {
       "filename": "",
       "content": ""

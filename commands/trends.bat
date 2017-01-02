@@ -1,1 +1,1 @@
-start "" "https://www.google.com/trends/explore?q=%*
+start "" "https://www.google.com/trends/explore?q=%*"
