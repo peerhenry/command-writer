@@ -25,20 +25,20 @@
     
     "en-nl" : {
       "filename": "en-nl.bat",
-      "content": "start \"\" \"https://translate.google.com/#/en/nl/%*\""
+      "content": "start \"\" \"https://translate.google.com/#en/nl/%*\""
     },
     "nl-en" : {
       "filename": "nl-en.bat",
-      "content": "start \"\" \"https://translate.google.com/#/nl/en/%*\""
+      "content": "start \"\" \"https://translate.google.com/#nl/en/%*\""
     },
     
     "en-de" : {
       "filename": "en-de.bat",
-      "content": "start \"\" \"https://translate.google.com/#/en/de/%*\""
+      "content": "start \"\" \"https://translate.google.com/#en/de/%*\""
     },
     "de-en" : {
       "filename": "de-en.bat",
-      "content": "start \"\" \"https://translate.google.com/#/de/en/%*\""
+      "content": "start \"\" \"https://translate.google.com/#de/en/%*\""
     },
 
     

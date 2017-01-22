@@ -1,1 +1,1 @@
-start "" "https://translate.google.com/#/nl/en/%*"
+start "" "https://translate.google.com/#nl/en/%*"
